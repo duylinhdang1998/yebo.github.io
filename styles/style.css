@@ -452,4 +452,17 @@ button {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+  .images {
+    height: auto;
+    flex-direction: column;
+  }
+  .images__block {
+    width: 100%;
+  }
+  .images__item {
+    height: auto;
+  }
+  .feature__item-content-top::after {
+    z-index: 5;
+  }
 }
